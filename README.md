@@ -1,4 +1,4 @@
-# webvpn-dlut
+# webvpn-guet
 
 ```v.guet.edu.cn```是 GUET 的WebVPN，提供了从校外访问校园网环境资源的接口，可供访问校内资源。
 
