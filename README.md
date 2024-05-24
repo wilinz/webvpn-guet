@@ -1,6 +1,6 @@
 # webvpn-dlut
 
-```webvpn.dlut.edu.cn```是DUT的WebVPN，提供了从校外访问校园网环境资源的接口，可供访问校内资源。
+```v.guet.edu.cn```是 GUET 的WebVPN，提供了从校外访问校园网环境资源的接口，可供访问校内资源。
 
 但是登录后，由于链接为加密状态，仅能访问该系统门户所提供的站点。
 
@@ -38,19 +38,19 @@
 将
 
 ```python
-institution = 'webvpn.dlut.edu.cn'
+institution = 'v.guet.edu.cn'
 ```
 
 改为
 
 ```python
-institution = 'webvpn.xxx.edu.cn'
+institution = 'v.xxx.edu.cn'
 ```
 
 即可切换为XXX的WebVPN。GL
 
 # 参见
 
-[webvpn4dut](https://github.com/cjhahaha/webvpn4dut)：JavaScript「实现」的WebVPN链接转换。
+[webvpn-dlut](https://github.com/ESWZY/webvpn-dlut)：WRD 的 WebVPN 的 URL 互转原理🌚
 
-[dlut-survival-tools](https://github.com/BeautyYuYanli/dlut-survival-tools)：与大连理工大学相关的工具收集。
+[webvpn4dut](https://github.com/cjhahaha/webvpn4dut)：JavaScript「实现」的WebVPN链接转换。

@@ -1,9 +1,9 @@
 from Crypto.Cipher import AES
 from binascii import hexlify, unhexlify
 
-key_ = b'Wxzxvpn2023key@$'
-iv_  = b'Wxzxvpn2023key@$'
-institution = 'webvpn.dlut.edu.cn'   # Change the hostname here like 'webvpn.xxx.edu.cn'
+key_ = b'wrdvpnisthebest!'
+iv_  = b'wrdvpnisthebest!'
+institution = 'v.guet.edu.cn'   # Change the hostname here like 'webvpn.xxx.edu.cn'
 
 def getCiphertext(plaintext, key = key_, cfb_iv = iv_, size = 128):
     '''From plantext hostname to ciphertext'''
@@ -65,10 +65,10 @@ if __name__ == '__main__':
     #print(getCiphertext('xueshu.baidu.com'))
     #print(getPlaintext('e7e056d2253161546b468aa395'))
 
-    url = 'https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2007&filename=JEXK200702000&uid=WEEvREcwSlJHSldRa1FhcTdnTnhXY20wTWhLQWVGdmJFOTcvMFFDWDBycz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MTYzNjU3cWZaT2RuRkNuaFZMN0tMeWpUWmJHNEh0Yk1yWTlGWklSOGVYMUx1eFlTN0RoMVQzcVRyV00xRnJDVVI='
+    url = 'https://bkjwtest.guet.edu.cn/student/home'
     print('From ordinary url: \n' + getVPNUrl(url))
 
-    VPNUrl = 'https://' + institution + '/https/77726476706e69737468656265737421fbf952d2243e635930068cb8/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2007&filename=JEXK200702000&uid=WEEvREcwSlJHSldRa1FhcTdnTnhXY20wTWhLQWVGdmJFOTcvMFFDWDBycz0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MTYzNjU3cWZaT2RuRkNuaFZMN0tMeWpUWmJHNEh0Yk1yWTlGWklSOGVYMUx1eFlTN0RoMVQzcVRyV00xRnJDVVI='
+    VPNUrl = 'https://v.guet.edu.cn/https/77726476706e69737468656265737421f2fc4b8b33357b44300f9ca98c1b2631e4350e37/student/home'
     print('\nFrom webVPN url: \n' + getOrdinaryUrl(VPNUrl))
 
     
